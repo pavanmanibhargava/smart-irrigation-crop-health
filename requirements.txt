@@ -1,0 +1,2 @@
+# Core dependencies will be added as the project progresses.
+# Keep this file minimal until specific packages are needed.

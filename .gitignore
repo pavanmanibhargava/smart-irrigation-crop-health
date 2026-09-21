@@ -1,0 +1,75 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Distribution
+*.tar.gz
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ========================
+# Node / React (frontend)
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# ========================
+# Data & Models
+# ========================
+data/raw/*
+data/processed/*
+data/external/*
+models/*.h5
+models/*.pkl
+models/*.pt
+models/*.onnx
+!data/**/.gitkeep
+!models/.gitkeep
+
+# ========================
+# Misc
+# ========================
+*.log
+*.csv
+*.sqlite3
