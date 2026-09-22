@@ -74,3 +74,5 @@ models/*.onnx
 *.csv
 *.sqlite3
 *.joblib
+# Crop health dataset
+data/raw/crop_health/
