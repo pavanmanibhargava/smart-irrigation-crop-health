@@ -1,2 +1,27 @@
-# Core dependencies will be added as the project progresses.
-# Keep this file minimal until specific packages are needed.
+# Smart Irrigation & Crop Health — Dependencies
+# Install: pip install -r requirements.txt
+
+# --------------------------------------------------
+# Data / ML
+# --------------------------------------------------
+pandas
+numpy
+scikit-learn
+joblib
+torch
+torchvision
+Pillow
+
+# --------------------------------------------------
+# Database
+# --------------------------------------------------
+sqlalchemy
+psycopg2-binary
+python-dotenv
+
+# --------------------------------------------------
+# Web Backend
+# --------------------------------------------------
+fastapi
+uvicorn
+python-multipart
